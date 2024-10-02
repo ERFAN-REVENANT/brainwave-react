@@ -2,6 +2,9 @@ import React from "react";
 import Section from "./Section";
 import Heading from "./Heading";
 import { benefits } from "../constants";
+import Arrow from "../assets/svg/Arrow";
+import { GradientLight } from "./design/Benefits";
+import  ClipPath  from "../assets/svg/ClipPath";
 
 const Benefits = () => {
   return (
@@ -30,8 +33,30 @@ const Benefits = () => {
                     height={48}
                     alt={item.title}
                   />
+                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
+                    Explore More
+                  </p>
+                  <Arrow></Arrow>
                 </div>
               </div>
+              {item.light && <GradientLight></GradientLight>}
+              <div
+                className="absolute inset-0.5 bg-n-8"
+                style={{ clipPath: "url(#benefits)" }}
+              >
+                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                  {item.imageUrl && (
+                    <img
+                      src={item.imageUrl}
+                      width={380}
+                      height={362}
+                      alt={item.title}
+                      className="w-full h-full object-cover"
+                    ></img>
+                  )}
+                </div>
+              </div>
+              <ClipPath></ClipPath>
             </div>
           ))}
         </div>
