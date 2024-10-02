@@ -659,6 +659,12 @@ body{
   }
 }
 
+.h5{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  line-height: 1.5;
+}
+
 .h6{
   font-size: 1.125rem;
   font-weight: 600;
@@ -1058,6 +1064,10 @@ body{
   margin-bottom: 0.25rem;
 }
 
+.mt-20{
+  margin-top: 5rem;
+}
+
 .block{
   display: block;
 }
@@ -1156,6 +1166,14 @@ body{
 
 .h-full{
   height: 100%;
+}
+
+.h-\[\]{
+  height: ;
+}
+
+.h-\[8\.5rem\]{
+  height: 8.5rem;
 }
 
 .w-0\.25{
