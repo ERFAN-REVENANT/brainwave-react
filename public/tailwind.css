@@ -1091,6 +1091,10 @@ body{
   margin-bottom: 2rem;
 }
 
+.mb-\[2rem\]{
+  margin-bottom: 2rem;
+}
+
 .mb-\[3rem\]{
   margin-bottom: 3rem;
 }
@@ -1155,14 +1159,6 @@ body{
   margin-top: auto;
 }
 
-.mb-\[\]{
-  margin-bottom: ;
-}
-
-.mb-\[2rem\]{
-  margin-bottom: 2rem;
-}
-
 .block{
   display: block;
 }
@@ -1207,6 +1203,10 @@ body{
   height: 50%;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
 .h-11{
   height: 2.75rem;
 }
@@ -1243,6 +1243,10 @@ body{
   height: 2.25rem;
 }
 
+.h-\[20rem\]{
+  height: 20rem;
+}
+
 .h-\[3\.2rem\]{
   height: 3.2rem;
 }
@@ -1253,6 +1257,10 @@ body{
 
 .h-\[38rem\]{
   height: 38rem;
+}
+
+.h-\[3rem\]{
+  height: 3rem;
 }
 
 .h-\[56\.625rem\]{
@@ -1275,22 +1283,6 @@ body{
   height: 100%;
 }
 
-.h-\[3rem\]{
-  height: 3rem;
-}
-
-.h-10{
-  height: 2.5rem;
-}
-
-.h-20{
-  height: 5rem;
-}
-
-.h-\[20rem\]{
-  height: 20rem;
-}
-
 .min-h-\[22rem\]{
   min-height: 22rem;
 }
@@ -1305,6 +1297,10 @@ body{
 
 .w-1\/2{
   width: 50%;
+}
+
+.w-10{
+  width: 2.5rem;
 }
 
 .w-2{
@@ -1371,6 +1367,10 @@ body{
   width: 36.125rem;
 }
 
+.w-\[3rem\]{
+  width: 3rem;
+}
+
 .w-\[51\.375rem\]{
   width: 51.375rem;
 }
@@ -1409,14 +1409,6 @@ body{
 
 .w-full{
   width: 100%;
-}
-
-.w-\[3rem\]{
-  width: 3rem;
-}
-
-.w-10{
-  width: 2.5rem;
 }
 
 .max-w-3xl{
@@ -1734,14 +1726,6 @@ body{
   border-radius: 0.75rem;
 }
 
-.rounded{
-  border-radius: 0.25rem;
-}
-
-.rounded-lg{
-  border-radius: 0.5rem;
-}
-
 .rounded-b-\[0\.9rem\]{
   border-bottom-right-radius: 0.9rem;
   border-bottom-left-radius: 0.9rem;
@@ -1957,6 +1941,10 @@ body{
      object-fit: cover;
 }
 
+.p-0\.25{
+  padding: 0.0625rem;
+}
+
 .p-0\.5{
   padding: 0.125rem;
 }
@@ -1985,10 +1973,6 @@ body{
   padding: 2.4rem;
 }
 
-.p-0\.25{
-  padding: 0.0625rem;
-}
-
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -1997,6 +1981,11 @@ body{
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-5{
@@ -2029,6 +2018,11 @@ body{
   padding-bottom: 2.5rem;
 }
 
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -2042,16 +2036,6 @@ body{
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .pb-7{
@@ -2393,28 +2377,20 @@ body{
     aspect-ratio: 688/490;
   }
 
-  .md\:h-\[\]{
-    height: ;
-  }
-
-  .md\:h-\[4\.5re\2c \]{
-    height: 4.5re,;
-  }
-
-  .md\:h-\[4\.5rem\]{
-    height: 4.5rem;
-  }
-
-  .md\:h-\[4\.5re\]{
-    height: 4.5re;
-  }
-
   .md\:h-15{
     height: 3.75rem;
   }
 
   .md\:h-\[25rem\]{
     height: 25rem;
+  }
+
+  .md\:h-\[4\.5rem\]{
+    height: 4.5rem;
+  }
+
+  .md\:w-15{
+    width: 3.75rem;
   }
 
   .md\:w-3\/5{
@@ -2429,16 +2405,8 @@ body{
     width: 31rem;
   }
 
-  .md\:w-\[\]{
-    width: ;
-  }
-
   .md\:w-\[4\.5rem\]{
     width: 4.5rem;
-  }
-
-  .md\:w-15{
-    width: 3.75rem;
   }
 
   .md\:max-w-5xl{
@@ -2582,14 +2550,6 @@ body{
     height: 1.5rem;
   }
 
-  .lg\:min-h-\[\]{
-    min-height: ;
-  }
-
-  .lg\:min-h-\[46\]{
-    min-height: 46;
-  }
-
   .lg\:min-h-\[46rem\]{
     min-height: 46rem;
   }
@@ -2637,12 +2597,12 @@ body{
     background-color: transparent;
   }
 
-  .lg\:p-20{
-    padding: 5rem;
-  }
-
   .lg\:p-15{
     padding: 3.75rem;
+  }
+
+  .lg\:p-20{
+    padding: 5rem;
   }
 
   .lg\:px-7\.5{
@@ -2761,6 +2721,11 @@ body{
     padding-right: 3rem;
   }
 
+  .xl\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .xl\:py-20{
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -2769,10 +2734,5 @@ body{
   .xl\:py-40{
     padding-top: 10rem;
     padding-bottom: 10rem;
-  }
-
-  .xl\:px-8{
-    padding-left: 2rem;
-    padding-right: 2rem;
   }
 }
